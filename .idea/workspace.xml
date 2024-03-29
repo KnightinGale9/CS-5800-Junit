@@ -4,36 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Loyalty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/BeefPatty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/Hotdog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/VeggiePatty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/Veggiedog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Interface/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/FoodToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Guacamole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Mushroom.java" afterDir="false" />
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 Moving files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Avocado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Bacon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/BurgerToppings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/MilkTea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/ThaiTea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Boba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Coconut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/DrinkAddOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Jelly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Strawberry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Hotdog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/HotDogToppings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Jalapeno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Ketchup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Mustard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteJUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HotDogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Loyalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Loyalty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/BeefPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/BeefPatty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/Hotdog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Beefdog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/VeggiePatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/VeggiePatty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/Veggiedog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Veggiedog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Interface/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Interface/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Bacon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Cheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/FoodToppings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Guacamole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Mushroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DecoratorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2eLrA37TCAUxHXCtR18RgPgYf04" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,21 +80,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/zhongooi/cppComputerScience/CS5800Maven/CS5800/src/main/java"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/zhongooi/cppComputerScience/CS5800Maven/CS5800/src/main/java/Assignment5/MenuItem/BurgerToppings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Assignment5.MenuItem.HotDogToppings" />
+      <recent name="Assignment5.MenuItem.DrinkAddOn" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Customer.Order" />
+  <component name="RunManager" selected="JUnit.CompleteJUnitTest">
+    <configuration name="Assignment5.Customer.Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment5.Customer.Order" />
       <module name="CS5800" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Customer.*" />
+          <option name="PATTERN" value="Assignment5.Customer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,9 +109,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompleteJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS5800" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompleteJUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS5800" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.customerOrderLoyaltyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS5800" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerOrderLoyaltyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotDogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS5800" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotDogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Order" />
+        <item itemvalue="JUnit.CompleteJUnitTest" />
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="Application.Assignment5.Customer.Order" />
+        <item itemvalue="JUnit.CustomerTest.customerOrderLoyaltyTest" />
+        <item itemvalue="JUnit.HotDogTest" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +165,21 @@
       <option name="presentableId" value="Default" />
       <updated>1711694554190</updated>
     </task>
+    <task id="LOCAL-00001" summary="Assignment 5 without Junit testing">
+      <created>1711695678719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711695678719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Assignment 5 Moving files">
+      <created>1711695806194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711695806194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +192,40 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment 5 without Junit testing" />
+    <MESSAGE value="Assignment 5 Moving files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5 Moving files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Assignment5/Customer/Order.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HotDogTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/HotDogTest.java</url>
+          <line>9</line>
+          <properties class="HotDogTest" method="BeefdogPriceTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

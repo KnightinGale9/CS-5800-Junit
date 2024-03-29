@@ -1,13 +1,13 @@
 package Assignment5.Customer;
 
-import Assignment5.Food.Interface.Food;
+import Assignment5.MenuItem.Interface.MenuItem;
 
 import java.util.ArrayList;
 
 public class Customer {
     private String name;
     private Loyalty status;
-    private ArrayList<Food> order;
+    private ArrayList<MenuItem> order;
     private double price;
 
     public Customer(String name,Loyalty status){
@@ -16,20 +16,20 @@ public class Customer {
         this.order = new ArrayList<>();
         price=0;
     }
-    public void addToOrder(Food food){
-        order.add(food);
+    public void addToOrder(MenuItem menuItem){
+        order.add(menuItem);
     }
     public double getOrderCost(){
-        for (Food item: order) {
+        for (MenuItem item: order) {
             price+=item.getCost();
         }
         return price;
     }
     public double applyLoyalty(){
-        return status.applyDiscount(price);
+        return status.priceAfterDiscount(this.getOrderCost());
     }
     public void printOrder(){
-        for (Food item: order) {
+        for (MenuItem item: order) {
             System.out.printf("%s : %.2f\n",item.getDescription(),item.getCost());
         }
         System.out.printf("Before Discount %.2f\n",getOrderCost());

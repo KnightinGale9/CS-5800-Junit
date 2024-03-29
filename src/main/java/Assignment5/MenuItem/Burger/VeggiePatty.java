@@ -1,8 +1,8 @@
-package Assignment5.Food.Base;
+package Assignment5.MenuItem.Burger;
 
-import Assignment5.Food.Interface.Food;
+import Assignment5.MenuItem.Interface.MenuItem;
 
-public class VeggiePatty implements Food {
+public class VeggiePatty implements Burger {
     @Override
     public String getDescription() {
         return "Veggie Patty Burger with";

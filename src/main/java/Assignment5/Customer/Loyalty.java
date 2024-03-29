@@ -13,7 +13,7 @@ public class Loyalty {
         return discout;
     }
 
-    public double applyDiscount(double price){
+    public double priceAfterDiscount(double price){
         return price*discout;
     }
 }
