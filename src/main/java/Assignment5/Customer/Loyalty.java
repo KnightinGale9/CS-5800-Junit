@@ -1,4 +1,4 @@
-package Customer;
+package Assignment5.Customer;
 
 public class Loyalty {
     private double discout;

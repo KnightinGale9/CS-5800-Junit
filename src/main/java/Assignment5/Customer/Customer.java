@@ -1,6 +1,6 @@
-package Customer;
+package Assignment5.Customer;
 
-import Food.Interface.Food;
+import Assignment5.Food.Interface.Food;
 
 import java.util.ArrayList;
 

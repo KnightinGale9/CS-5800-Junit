@@ -1,6 +1,6 @@
-package Food.Toppings;
+package Assignment5.Food.Toppings;
 
-import Food.Interface.Food;
+import Assignment5.Food.Interface.Food;
 
 public class Mushroom extends FoodToppings {
     public Mushroom(Food newFood){

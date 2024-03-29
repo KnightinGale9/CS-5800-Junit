@@ -1,6 +1,6 @@
-package Food.Base;
+package Assignment5.Food.Base;
 
-import Food.Interface.Food;
+import Assignment5.Food.Interface.Food;
 
 public class VeggiePatty implements Food {
     @Override
