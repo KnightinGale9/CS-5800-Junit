@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Loyalty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/BeefPatty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/Hotdog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/VeggiePatty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Base/Veggiedog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Interface/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Bacon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/FoodToppings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Guacamole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Food/Toppings/Mushroom.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2eLrA37TCAUxHXCtR18RgPgYf04" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zhongooi/cppComputerScience/CS5800Maven/CS5800/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Customer.Order" />
+      <module name="CS5800" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Order" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="" />
+      <created>1711694554190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711694554190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
