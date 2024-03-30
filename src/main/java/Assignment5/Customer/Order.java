@@ -21,7 +21,6 @@ public class Order {
         zhong.addToOrder(new Boba(new MilkTea()));
         zhong.addToOrder(new Boba(new Coconut(new Jelly(new Strawberry(new ThaiTea())))));
 
-        System.out.println(zhong.applyLoyalty());
         zhong.printOrder();
     }
 }

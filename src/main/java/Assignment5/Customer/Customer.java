@@ -20,6 +20,7 @@ public class Customer {
         order.add(menuItem);
     }
     public double getOrderCost(){
+        price=0;
         for (MenuItem item: order) {
             price+=item.getCost();
         }
