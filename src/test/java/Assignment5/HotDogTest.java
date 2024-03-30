@@ -1,3 +1,5 @@
+package Assignment5;
+
 import Assignment5.MenuItem.HotDog.*;
 import Assignment5.MenuItem.HotDogToppings.*;
 

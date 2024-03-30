@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 Moving files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Avocado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/BurgerToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/BurgerToppings/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/MilkTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Drink/ThaiTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Boba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Coconut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/DrinkAddOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Jelly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/DrinkAddOn/Strawberry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Hotdog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/HotDogToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Jalapeno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Ketchup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Mustard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDogToppings/Sugar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteJUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HotDogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Loyalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Loyalty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/Customer/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/BeefPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/BeefPatty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/Hotdog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Beefdog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/VeggiePatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Burger/VeggiePatty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Base/Veggiedog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/HotDog/Veggiedog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Interface/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment5/MenuItem/Interface/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Bacon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Cheese.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/FoodToppings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Guacamole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment5/Food/Toppings/Mushroom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecoratorTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 Made decorator for each menu item and JunitTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711695806194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Assignment 5 Made decorator for each menu item and JunitTest">
+      <created>1711755640562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711755640562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assignment 5 without Junit testing" />
     <MESSAGE value="Assignment 5 Moving files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5 Moving files" />
+    <MESSAGE value="Assignment 5 Made decorator for each menu item and JunitTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5 Made decorator for each menu item and JunitTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,6 +180,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Assignment5/Customer/Customer.java</url>
           <line>28</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CompleteJUnitTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/HotDogTest.java</url>
