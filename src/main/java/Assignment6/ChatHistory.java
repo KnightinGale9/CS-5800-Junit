@@ -25,4 +25,14 @@ public class ChatHistory implements IterableByUser  {
     public SearchMessagesByUser iterator(User userToSearchWith) {
         return new SearchMessagesByUser(userToSearchWith,getChatHistory());
     }
+
+    @Override
+    public String toString() {
+        String temp = "[ ";
+        for(Message mess: history){
+            temp+=mess;
+            temp+=",";
+        }
+        return temp.substring(0,temp.length()-1)+" ]";
+    }
 }

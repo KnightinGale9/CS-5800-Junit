@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 Moved JunitTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/IterableByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/MessageMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/SearchMessagesByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment6/driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment6/SendingMessageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eLrA37TCAUxHXCtR18RgPgYf04" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.driver.executor": "Debug",
+    "Application.driver.executor": "Run",
+    "JUnit.SendingMessageTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,12 +64,13 @@
       <recent name="Assignment5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Assignment6" />
       <recent name="" />
       <recent name="Assignment5.MenuItem.HotDogToppings" />
       <recent name="Assignment5.MenuItem.DrinkAddOn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.driver">
+  <component name="RunManager">
     <configuration name="driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment6.driver" />
       <module name="CS5800" />
@@ -82,21 +80,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BurgerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS5800" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Assignment5" />
-      <option name="MAIN_CLASS_NAME" value="Assignment5.BurgerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,13 +129,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SendingMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS5800" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assignment6" />
+      <option name="MAIN_CLASS_NAME" value="Assignment6.SendingMessageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SendingMessageTest" />
         <item itemvalue="Application.driver" />
         <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.HotDogTest" />
         <item itemvalue="JUnit.DrinkTest" />
-        <item itemvalue="JUnit.BurgerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,26 +234,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/Assignment5/CompleteJUnitTest.java</url>
           <line>5</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Assignment6/driver.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Assignment6/driver.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Assignment6/driver.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Assignment6/driver.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Assignment5/HotDogTest.java</url>

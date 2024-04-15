@@ -1,6 +1,7 @@
 package Assignment6;
 
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -13,7 +14,9 @@ public class User implements IterableByUser{
          memento= new MessageMemento();
          chat = new ChatHistory(memento);
      }
-
+    public String getName(){
+         return name;
+    }
      public void lastMessageSent(Message message){
          memento.setMessage(message);
      }
@@ -21,9 +24,17 @@ public class User implements IterableByUser{
          for(User user:memento.getMessage().getRecipient()){
              user.getChatHistory().remove(memento.getMessage());
          }
+         this.getChatHistory().remove(memento.getMessage());
      }
      public void recieveMessage(Message message){
          this.chat.addMessage(message);
+     }
+     public void removeBlockMessage(User block){
+         for(Message mess: chat.getChatHistory()){
+             if(mess.getSender().equals(block)){
+                 this.getChatHistory().remove(mess);
+             }
+         }
      }
      public List<Message> getChatHistory(){
          return chat.getChatHistory();
@@ -36,8 +47,20 @@ public class User implements IterableByUser{
          }
          return output;
      }
+    public void printMessagesWithUser(User userToSearchWith){
+         String temp="Messages with "+userToSearchWith.getName()+": ";
+        for(Message mess:this.getMessagesWithUser(userToSearchWith)){
+            temp+=mess;
+        }
+        System.out.println(temp);
+    }
      @Override
      public SearchMessagesByUser iterator(User userToSearchWith) {
          return chat.iterator(userToSearchWith);
      }
+
+    @Override
+    public String toString() {
+        return String.format("%s: %s",name,chat.toString());
+    }
 }

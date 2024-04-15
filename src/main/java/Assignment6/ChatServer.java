@@ -19,17 +19,21 @@ public class ChatServer {
     }
     public void blockUser(User sender, User recipient){
         block.get(sender).add(recipient);
+        sender.removeBlockMessage(recipient);
     }
     public void sendMessage(User sender, String message,User ... recipient)
     {
-
         Message generate = new Message(sender,new HashSet<>(List.of(recipient)),message);
         sender.lastMessageSent(generate);
+        sender.recieveMessage(generate);
         for(User user: recipient) {
             if (!block.get(user).contains(sender)) {
                 user.recieveMessage(generate);
             }
         }
+    }
+    public void printChatHistroy(User view){
+        System.out.println(view.toString());
     }
 
 

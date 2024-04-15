@@ -36,9 +36,15 @@ public class Message{
     public String getMessage() {
         return message;
     }
-//    public boolean equals(Message other) {
-//        return Objects.equals(sender, other.sender) && Objects.equals(recipient, other.recipient)
-//                && Objects.equals(timestamp, other.timestamp) && Objects.equals(message, other.message);
-//    }
 
+    @Override
+    public String toString() {
+        String temp="";
+        for(User u: recipient)
+        {
+            temp+=u.getName();
+            temp+= ",";
+        }
+        return String.format("[Sender:%s,Recipient:%s %s:%s]",sender.getName(),temp,timestamp,message);
+    }
 }
