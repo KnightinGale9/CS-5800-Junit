@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 Moved JunitTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment6/SendingMessageTest.java" afterDir="false" />
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 6 - Added better blocking, an actual Driver, and Junit Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711757669844</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Assignment 6 - Added better blocking, an actual Driver, and Junit Test">
+      <option name="closed" value="true" />
+      <created>1713173388259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713173388259</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +214,8 @@
     <MESSAGE value="Assignment 5 Moving files" />
     <MESSAGE value="Assignment 5 Made decorator for each menu item and JunitTest" />
     <MESSAGE value="Assignment 5 Moved JunitTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5 Moved JunitTest" />
+    <MESSAGE value="Assignment 6 - Added better blocking, an actual Driver, and Junit Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 6 - Added better blocking, an actual Driver, and Junit Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
