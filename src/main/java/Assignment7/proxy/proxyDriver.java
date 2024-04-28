@@ -8,22 +8,22 @@ public class proxyDriver {
 
         delay();
         startTime =  System.nanoTime();
-        System.out.println(proxy.searchById(11));
+        System.out.println("Search by ID: " + proxy.searchById(11));
         endTimer(startTime);
 
         delay();
         startTime =  System.nanoTime();
-        System.out.println(proxy.searchByTitle("Panorama"));
+        System.out.println("\nSearch by Title: " +proxy.searchByTitle("Panorama"));
         endTimer(startTime);
 
         delay();
         startTime =  System.nanoTime();
-        System.out.println(proxy.searchByAlbum("Error"));
+        System.out.println("\nSearch by Album: "+ proxy.searchByAlbum("Error"));
         endTimer(startTime);
 
         delay();
         startTime =  System.nanoTime();
-        System.out.println(proxy.searchByTitle("Panorama"));
+        System.out.println("\nSearch by Title again: " + proxy.searchByTitle("Panorama"));
         endTimer(startTime);
 
     }
