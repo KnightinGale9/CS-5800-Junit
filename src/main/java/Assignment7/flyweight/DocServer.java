@@ -18,12 +18,11 @@ public class DocServer {
     public DocServer(String filename) {
         try {
             this.filename=filename;
-            FileInputStream fis = new FileInputStream(filename);
+            FileInputStream fis = new FileInputStream("src/main/java/Assignment7/flyweight/"+filename);
             document = new XWPFDocument(fis);
             paragraph = document.getLastParagraph();
             System.out.println("Appending a existing document");
-
-
+            fis.close();
         }
         catch (FileNotFoundException e) {
             System.out.println("Making a new document");
@@ -48,7 +47,7 @@ public class DocServer {
         // Write the document to a file
         FileOutputStream out;
         try {
-            out = new FileOutputStream(String.format("src/main/java/Assignment7/flyweight/%s.docx",filename));
+            out = new FileOutputStream(String.format("src/main/java/Assignment7/flyweight/%s",filename));
             document.write(out);
             out.close();
             System.out.println("Document created successfully.");

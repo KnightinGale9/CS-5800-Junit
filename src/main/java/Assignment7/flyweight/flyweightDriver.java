@@ -1,10 +1,10 @@
 package Assignment7.flyweight;
 
-public class Driver {
+public class flyweightDriver {
     public static void main(String[] args) {
         FlyWeightFactory factory = new FlyWeightFactory();
 
-        DocServer docServer = new DocServer("sample");
+        DocServer docServer = new DocServer("sample.docx");
         docServer.addText('H',factory.getCharacterProperties("Times","0000FF",80));
         docServer.addText('e',factory.getCharacterProperties("Times","0000FF",80));
         docServer.addText('l',factory.getCharacterProperties("Times","0000FF",80));
