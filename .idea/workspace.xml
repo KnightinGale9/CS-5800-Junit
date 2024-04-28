@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 7- Fixed a bug in Flyweight and made Proxy">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment7/FlyweightDesignPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment7/ProxyDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 7- Added Junit Testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <recent name="Assignment5.MenuItem.DrinkAddOn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProxyDesignPatternTest">
+  <component name="RunManager" selected="JUnit.CompleteJUnitTest">
     <configuration name="proxyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment7.proxy.proxyDriver" />
       <module name="CS5800" />
@@ -81,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightDesignPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS5800" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +88,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Assignment7" />
-      <option name="MAIN_CLASS_NAME" value="Assignment7.FlyweightDesignPatternTest" />
+      <option name="MAIN_CLASS_NAME" value="Assignment7.CompleteJUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompleteJUnitTest" />
         <item itemvalue="JUnit.ProxyDesignPatternTest" />
         <item itemvalue="Application.proxyDriver" />
         <item itemvalue="JUnit.ProxyDesignPatternTest.searchSongByTitle" />
         <item itemvalue="JUnit.FlyweightDesignPatternTest.notEquivelentChacterPropertiesTest" />
-        <item itemvalue="JUnit.FlyweightDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714288755103</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment 7- Added Junit Testing">
+      <created>1714290512963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714290512963</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +240,8 @@
     <MESSAGE value="Assignment 7- Created a flyweight pattern" />
     <MESSAGE value="Assignment 7- Fixed a bug in Flyweight and made Proxy DP" />
     <MESSAGE value="Assignment 7- Fixed a bug in Flyweight and made Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 7- Fixed a bug in Flyweight and made Proxy" />
+    <MESSAGE value="Assignment 7- Added Junit Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 7- Added Junit Testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

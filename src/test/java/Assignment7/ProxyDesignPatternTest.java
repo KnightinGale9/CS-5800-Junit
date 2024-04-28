@@ -39,6 +39,19 @@ public class ProxyDesignPatternTest {
 
         assertTrue(endTimer2<endTimer1);
     }
+    @Test
+    public void cacheSpeedTest2(){
+        SongService proxy = new SongProxy();
+        long startTime =  System.nanoTime();
+        System.out.println(proxy.searchByAlbum("Error"));
+        long endTimer1=endTimer(startTime);
+
+        startTime =  System.nanoTime();
+        System.out.println(proxy.searchByAlbum("Error"));
+        long endTimer2=endTimer(startTime);
+
+        assertTrue(endTimer2<endTimer1);
+    }
     public long endTimer(long startTime){
         long endTime = System.nanoTime();
 
