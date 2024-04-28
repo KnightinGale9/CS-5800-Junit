@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 6 - Added better blocking, an actual Driver, and Junit Test">
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 5 REmoved a pricing bug">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/CharacterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/DocServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/FlyWeightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/Font.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment7/flyweight/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/ChatHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment6/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Zhong Desktop/Documents/GitHub/CS-5800-Junit"
+    "last_opened_file_path": "C:/Users/Zhong Desktop/Documents/GitHub/CS-5800-Junit",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +75,40 @@
       <recent name="Assignment5.MenuItem.DrinkAddOn" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Assignment7.flyweight.DocServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment7.flyweight.DocServer" />
+      <module name="CS5800" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment7.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment7.flyweight.Driver" />
+      <module name="CS5800" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment7.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aa" />
+      <module name="CS5800" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment6.driver" />
       <module name="CS5800" />
@@ -76,51 +118,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS5800" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Assignment5" />
-      <option name="MAIN_CLASS_NAME" value="Assignment5.CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS5800" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Assignment5" />
-      <option name="MAIN_CLASS_NAME" value="Assignment5.DrinkTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotDogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS5800" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Assignment5" />
-      <option name="MAIN_CLASS_NAME" value="Assignment5.HotDogTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Assignment7.flyweight.DocServer" />
+        <item itemvalue="Application.aa" />
         <item itemvalue="JUnit.SendingMessageTest" />
         <item itemvalue="Application.driver" />
-        <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.HotDogTest" />
-        <item itemvalue="JUnit.DrinkTest" />
       </list>
     </recent_temporary>
   </component>
