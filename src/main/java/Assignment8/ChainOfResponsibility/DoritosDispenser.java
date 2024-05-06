@@ -1,6 +1,5 @@
 package Assignment8.ChainOfResponsibility;
 
-import Assignment8.Snacks.Cheetos;
 import Assignment8.Snacks.Doritos;
 import Assignment8.Snacks.Snack;
 

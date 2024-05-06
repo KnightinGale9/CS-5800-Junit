@@ -1,7 +1,6 @@
 package Assignment8.VendingMachineState;
 
 import Assignment8.ChainOfResponsibility.*;
-import Assignment8.Snacks.Snack;
 import Assignment8.VendingMachine;
 
 public class DispensingSnackState implements StateOfVendingMachine{

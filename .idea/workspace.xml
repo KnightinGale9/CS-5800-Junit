@@ -4,35 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment 7- Fixed proxy output">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CheetosDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/PepsiDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnackDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Cheetos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Doritos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/KitKat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/Snacks/Snickers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/DispensingSnackState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/StateOfVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/WaitingForMoneyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment8/vendingMachineDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment8/Assignment8CompleteJUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment8/MoneyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment8/SnackDispenserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Assignment8/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="45402821-f02d-48cc-9cb0-dca0a094a23a" name="Changes" comment="Assignment8-Chain of responsibility and State design pattern">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/PepsiDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/PepsiDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/DispensingSnackState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/DispensingSnackState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/WaitingForMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/WaitingForMoneyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Assignment8/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Assignment8/StateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714291687689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Assignment8-Chain of responsibility and State design pattern">
+      <created>1714983209963</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714983209963</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +272,8 @@
     <MESSAGE value="Assignment 7- Fixed a bug in Flyweight and made Proxy" />
     <MESSAGE value="Assignment 7- Added Junit Testing" />
     <MESSAGE value="Assignment 7- Fixed proxy output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 7- Fixed proxy output" />
+    <MESSAGE value="Assignment8-Chain of responsibility and State design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment8-Chain of responsibility and State design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,7 +325,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/VendingMachineState/DispensingSnackState.java</url>
-          <line>23</line>
+          <line>22</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -347,27 +335,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java</url>
-          <line>14</line>
+          <line>12</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/PepsiDispenser.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -382,42 +370,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/CokeDispenser.java</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/DoritosDispenser.java</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/KitKatDispenser.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java</url>
-          <line>15</line>
+          <line>13</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Assignment8/ChainOfResponsibility/SnickersDispenser.java</url>
-          <line>19</line>
+          <line>17</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

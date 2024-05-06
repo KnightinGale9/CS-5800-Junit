@@ -1,9 +1,6 @@
 package Assignment8.VendingMachineState;
 
-import Assignment8.Snacks.Snack;
 import Assignment8.VendingMachine;
-
-import java.util.Scanner;
 
 public class WaitingForMoneyState implements StateOfVendingMachine{
     @Override

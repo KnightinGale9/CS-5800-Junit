@@ -1,7 +1,5 @@
 package Assignment8.ChainOfResponsibility;
 
-import Assignment8.Snacks.Cheetos;
-import Assignment8.Snacks.KitKat;
 import Assignment8.Snacks.Snack;
 import Assignment8.Snacks.Snickers;
 
